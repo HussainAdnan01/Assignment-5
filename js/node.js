@@ -1,4 +1,4 @@
-//  ADD HISTORY CONTAINER CHILD LI
+
 
 function addHistory(id1, id2) {
   const inputDonationValue = parseFloat(document.getElementById(id1).value);
@@ -28,7 +28,6 @@ function addHistory(id1, id2) {
   }
 }
 
-// NAVBAR SCROLL
 
 window.addEventListener("scroll", function () {
   const blurBtn = document.getElementById("donation-and-history");
@@ -41,7 +40,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// TOGGLE BTN
 
 document.getElementById("history").addEventListener("click", function () {
   document
