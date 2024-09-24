@@ -17,7 +17,7 @@ function addHistory(id1, id2) {
           <p class="text-ash/70 md:text-base text-sm">
             Date : ${new Date().toLocaleDateString(
               "en-GB"
-            )} ${new Date().toLocaleTimeString()} (Bangladesh Standard Time)
+            )} ${new Date().toLocaleTimeString()} (Bangladesh Standard Time).
           </p>
         </div>
     `;
